@@ -13,19 +13,21 @@ Digamos que existe um site com uma barra de procura e você pode inserir valores
 
 Um exemplo disso seria: 
 
-<img src="Imagens/XSS - DOM/ex01.png"></img>
+![[ex01.png]]
 
 Aqui o ```document.write``` está usando o ```+query+``` para guardar os valores inseridos pelo usuários, para depois definir ele em uma variável que será usada para fazer uma procura local de resultados com o ```location.search``` no parâmetro de url ```search=```. 
 
-Explicado isso, como seremos nós que colocaremos os dados para pesquisa, podemos usar do javascript para burlar parte do processo.
+Explicado isso, como seremos nós que colocaremos os dados para pesquisa, podemos usar do JS para burlar parte do processo.
 
 Um exemplo de código que podemos executar:
 
-```"><svg onload=alert(1)>"```
+```
+"><svg onload=alert(1)>"
+```
 
 E teremos o seguinte resultado: 
 
-<img src="Imagens/XSS - DOM/ex02.png"></img>
+![[ex02.png]]
 
 ### Explicação
 
@@ -33,15 +35,14 @@ O que acontece aqui é que quando colocamos o **script** mostrado, nós quebramo
 
 ### Tente você mesmo:
 
-Você pode treinar esse tipo de **XSS** nesse laboratório da portswigger:
 
-- [https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
+> [!Você pode treinar esse tipo de XSS nesse laboratório da portswigger]
+> - [https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
 
 ### Finalização:
 
-Espero que tenha ficado claro esse XSS em específico, visto que ele é mais complicado que os outros. Mas se você não conseguiu entender, procure auxílio de videos e outros artigos para te ajudar!! 
-
+Espero que tenha ficado claro esse XSS em específico, visto que ele é mais complicado que os outros. Mas se você não conseguiu entender, procure auxílio de vídeos e outros artigos para te ajudar!! 
 
 Obs: É sempre importante dizer que o conteúdo colocado nesse artigo é feito meramente para fins educativos e didáticos e não me responsabilizo por qualquer ato ilegal feito a partir do conhecimento desse artigo por mais simples que ele seja!
 
-<p align="right">Soon - (10/08/24)</p>
+<p align="right">Soon - (10/09/24)</p>

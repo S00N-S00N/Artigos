@@ -7,5 +7,3 @@ A intenção de todos os artigos é que você consiga aprender de maneira simple
 Se vocês tiverem sugestões do que eu posso melhorar, tanto na forma de escrever, tanto em passar informações ou outras coisas, vocês podem deixar na **wiki** do repositório!
 
 <img src="Read_Img/img.jpg"></img>
-> The English version of this tool will soon be released!
-

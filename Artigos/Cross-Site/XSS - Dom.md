@@ -1,4 +1,5 @@
 <h1 align="center">XSS - DOM</h1>
+
 ### Introdução
 
 Opa, seguinte esse será meu último artigo sobre XSS! Meu próximo artigo saíra em breve e entraremos em SQL Injection.
